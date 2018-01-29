@@ -14,18 +14,18 @@
 			<h1 class="display-4">New York Times Search</h1>
 		</div>
 
-		<form class="box">
+		<form>
 			<div class="title-div">Search Parameters</div>
 			<div class="form-group">
-				<label for="search-term-input">Search Term:</label>
-				<input id="search-term-input" type="term" class="form-control">
+				<label for="search-bar">Search Term:</label>
+				<input id="search-bar" type="term" class="form-control">
 			</div>
 			<div class="form-group">
 				<label for="number-records-input">Number of Records to Retrieve:</label>
 				<select id="number-records-input" class="form-control">
+					<option>1</option>
 					<option>5</option>
 					<option>10</option>
-					<option>15</option>
 				</select>
 			</div>
 			<div class="form-group">
@@ -37,13 +37,13 @@
 				<input id="end-year-input" type="term" class="form-control">
 			</div>
 			<div>
-				<button id="search-btn" class="btn" type="submit">Search</button>
-				<button id="clear-btn" class="btn" type="reset">Clear</button>
+				<button id="search" class="btn" type="submit">Search</button>
+				<button id="clear" class="btn" type="reset">Clear</button>
 			</div>
 		</form>
 
-		<div class="b">
-			<div class="title-div"></div>
+		<div id="results-box" class="mt-4">
+			<div class="title-div">Search Results</div>
 			<div id="result-section"></div>
 		</div>
 
