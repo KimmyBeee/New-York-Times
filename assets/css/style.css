@@ -1,0 +1,12 @@
+section {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	/*font-family: 'arial';*/
+}
+
+.title-div {
+	border-bottom: solid;
+	border-width: 1px;
+	background-color: gray;
+}
